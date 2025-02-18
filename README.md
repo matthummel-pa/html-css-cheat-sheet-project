@@ -1,2 +1,2 @@
 # html-css-cheatsheet
- Front-end Mentor Challenge
+Codecademy project
