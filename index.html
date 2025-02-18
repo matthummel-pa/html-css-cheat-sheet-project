@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+
+<h1>Web Development Cheatsheet</h1>
+<p>A project created by Matt Hummel for CodeAcademy Front-End Development Pathway. Future references to be added later.</p>
+<nav>
+    <ul>
+        <li>
+            <a href="#html">
+                HTML
+            </a>
+        </li>
+        <li>
+          <a href="#css">
+             CSS
+          </a>
+      </li>
+    </ul>
+</nav>
+
+</header>
+<main>
+
+    <section id="html">
+        <h1>HTML</h1>
+
+        <h2>Tables Tags</h2>
+        <table>
+            <thead>
+              <th>Tag</th>
+              <th>Name</th>
+              <th>Description</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="code">&lt;table&gt;</span></td>
+                <td>Table</td>
+                <td>The wrapper element for all HTML tables.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;thead&gt;</span></td>
+                <td>Table Head</td>
+                <td>The set of rows defining the column headers in a table.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;tbody&gt;</span></td>
+                <td>Table Body</td>
+                <td>The set of rows containing actual table data.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;tr&gt;</span></td>
+                <td>Table Row</td>
+                <td>The table row container.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;td&gt;</span></td>
+                <td>Table Data</td>
+                <td>The table row container.</td>
+              </tr>
+              <tr>
+                <td><span class="code">&lt;tfoot&gt;</span></td>
+                <td>Table Foot</td>
+                <td>The set of rows defining the footer in a table.</td>
+              </tr>
+            </tbody>
+          </table>
+
+    </section>
+    <section id="css">
+      <h1>CSS</h1>
+
+      <h2>FlexBox</h2>
+      <p><strong>Set parent container to either:</strong></p>
+      <p>display: flex</p>
+      <p>display: inline-flex</p>
+      <h2>Flex Start</h2>
+      <p>justify-content: flex-start;
+        </p>
+
+      <div class='container' id='flexstart'>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'></div>
+      </div>
+      <h2>Flex End</h2>
+      <p> justify-content: flex-end;
+        </p>
+      <div class='container' id='flexend'>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'></div>
+      </div>
+      <h2>Center</h2>
+      <p>justify-content: flex-center;</p>
+      <div class='container' id='center'>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'></div>
+      </div>
+      <h2>Space Around</h2>
+      <p>justify-content: space-around;</p>
+      <div class='container' id='spacearound'>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'></div>
+      </div>
+      <h2>Space Between</h2>
+      <p>justify-content: space-between;</p>
+      <div class='container' id='spacebetween'>
+        <div class='box'></div>
+        <div class='box'></div>
+        <div class='box'></div>
+      </div>
+      <h1>Flex Start</h1>
+      <p>Add  justify-content: center; to flex container</p>
+      <p> align-items: flex-start;</p>
+
+  <div class='container-center' id='flexstart'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h2>Flex End</h2>
+  <p>align-items: flex-end;</p>
+
+  <div class='container-center' id='flexend'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h2>Center</h2>
+  <p>align-items: center;</p>
+
+  <div class='container-center' id='center'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h2>Baseline</h2>
+  <p>align-items: baseline;</p>
+  <div class='container-center' id='baseline'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+  <h2>Stretch</h2>
+  <div class='container-center' id='stretch'>
+    <div class='left'></div>
+    <div class='center'></div>
+    <div class='right'></div>
+  </div>
+    </section>
+</main>
+
+<footer>
+    <p>Web Development Cheatsheet coded by Matt Hummel</p>
+</footer>
+</div>
+</body>
+</html>
