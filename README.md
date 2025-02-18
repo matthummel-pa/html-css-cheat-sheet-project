@@ -1,2 +1,2 @@
-# html-css-cheatsheet
+# HTML CSS CHEAT SHEET
 Codecademy project
