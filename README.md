@@ -1,6 +1,6 @@
 # HTML/CSS Cheat Sheet coding practice for CodeCademy
 
-This is a practice challenge created for [CodeCademy]([https://frontendmentor.com](https://www.codecademy.com/profiles/matthummel)).  
+This is a practice challenge created for [CodeCademy](https://www.codecademy.com/profiles/matthummel).  
 
 ## Technology Used
 
